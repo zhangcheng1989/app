@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>text</key>
+		<string>嗨，2B</string>
+		<key>time</key>
+		<string>昨天 10:28</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>问你个严肃的事</string>
+		<key>time</key>
+		<string>昨天 10:28</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>你妹夫啊，你才2b，说啊</string>
+		<key>time</key>
+		<string>昨天 10:39</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>中国年轻人口数量已经见顶，按照全球经验看意味着地产销量和新开工出现拐点，因而2016年的地产销量激增与人口角度的需求无关，而是有很大程度的金融加杠杆下的投机现象。2016年居民拼命贷款买房，月均房贷接近5000亿，买房杠杆率也超过2倍、房贷/GDP已达8.6%，均接近或超过美国2007年的历史峰值。</string>
+		<key>time</key>
+		<string>昨天 10:40</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+</array>
+</plist>

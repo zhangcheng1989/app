@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZCRecommendViewController">
+            <connections>
+                <outlet property="categoryTableView" destination="qbX-Pg-38v" id="8tO-Er-ZXA"/>
+                <outlet property="userTableView" destination="utH-5H-IWS" id="gzt-w3-GZj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qbX-Pg-38v">
+                    <rect key="frame" x="0.0" y="0.0" width="70" height="480"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="Tfp-9F-NUF"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="vES-2W-ThS"/>
+                        <outlet property="delegate" destination="-1" id="rXv-dn-eQD"/>
+                    </connections>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="utH-5H-IWS">
+                    <rect key="frame" x="70" y="0.0" width="250" height="480"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="uZT-bl-fim"/>
+                        <outlet property="delegate" destination="-1" id="cT5-0L-PVm"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="utH-5H-IWS" secondAttribute="bottom" id="6z5-98-ckE"/>
+                <constraint firstAttribute="bottom" secondItem="qbX-Pg-38v" secondAttribute="bottom" id="JHC-d0-g30"/>
+                <constraint firstItem="qbX-Pg-38v" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Y2N-w2-wqk"/>
+                <constraint firstAttribute="trailing" secondItem="utH-5H-IWS" secondAttribute="trailing" id="d31-Z5-Xh2"/>
+                <constraint firstItem="utH-5H-IWS" firstAttribute="leading" secondItem="qbX-Pg-38v" secondAttribute="trailing" id="e0Q-bm-ZtH"/>
+                <constraint firstItem="utH-5H-IWS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pFi-k8-uzx"/>
+                <constraint firstItem="qbX-Pg-38v" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="x87-Ot-Mta"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="146" y="333"/>
+        </view>
+    </objects>
+</document>
