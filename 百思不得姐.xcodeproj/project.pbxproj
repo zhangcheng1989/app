@@ -17,6 +17,8 @@
 		050926431DA4F06800933951 /* message.plist in Resources */ = {isa = PBXBuildFile; fileRef = 050926421DA4F06800933951 /* message.plist */; };
 		050926461DA4F12700933951 /* ZCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 050926451DA4F12700933951 /* ZCMessage.m */; };
 		050B49151D9C1DB200A0D71C /* ZCCCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 050B49141D9C1DB200A0D71C /* ZCCCustomViewController.m */; };
+		050D8C471DAD437000C8225C /* ZCNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 050D8C451DAD437000C8225C /* ZCNavViewController.m */; };
+		050D8C481DAD437000C8225C /* ZCNavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050D8C461DAD437000C8225C /* ZCNavViewController.xib */; };
 		0522E0B31DA3621900CB390C /* ZCPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0522E0B11DA3621900CB390C /* ZCPhotoCell.m */; };
 		0522E0B41DA3621900CB390C /* ZCPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0522E0B21DA3621900CB390C /* ZCPhotoCell.xib */; };
 		0522E0B71DA3908500CB390C /* ZCGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0522E0B61DA3908500CB390C /* ZCGridLayout.m */; };
@@ -133,6 +135,9 @@
 		050926451DA4F12700933951 /* ZCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZCMessage.m; path = "百思不得姐/ZCMessage.m"; sourceTree = SOURCE_ROOT; };
 		050B49131D9C1DB200A0D71C /* ZCCCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCCustomViewController.h; sourceTree = "<group>"; };
 		050B49141D9C1DB200A0D71C /* ZCCCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCCustomViewController.m; sourceTree = "<group>"; };
+		050D8C441DAD437000C8225C /* ZCNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNavViewController.h; sourceTree = "<group>"; };
+		050D8C451DAD437000C8225C /* ZCNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNavViewController.m; sourceTree = "<group>"; };
+		050D8C461DAD437000C8225C /* ZCNavViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCNavViewController.xib; sourceTree = "<group>"; };
 		0522E0B01DA3621900CB390C /* ZCPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCPhotoCell.h; sourceTree = "<group>"; };
 		0522E0B11DA3621900CB390C /* ZCPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCPhotoCell.m; sourceTree = "<group>"; };
 		0522E0B21DA3621900CB390C /* ZCPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCPhotoCell.xib; sourceTree = "<group>"; };
@@ -635,6 +640,9 @@
 				054B476F1DAA20DA000C10A2 /* ZCHittestAndPointViewController.xib */,
 				054B478A1DAA3B45000C10A2 /* ZCDrawerViewController.h */,
 				054B478B1DAA3B45000C10A2 /* ZCDrawerViewController.m */,
+				050D8C441DAD437000C8225C /* ZCNavViewController.h */,
+				050D8C451DAD437000C8225C /* ZCNavViewController.m */,
+				050D8C461DAD437000C8225C /* ZCNavViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -803,7 +811,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = ZC;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = zhangcheng;
 				TargetAttributes = {
 					372896021D69AB0D00F103DF = {
@@ -858,6 +866,7 @@
 				0502785A1DA9382500117654 /* ZCMoveViewController.xib in Resources */,
 				0522E0B41DA3621900CB390C /* ZCPhotoCell.xib in Resources */,
 				372896131D69AB0D00F103DF /* Assets.xcassets in Resources */,
+				050D8C481DAD437000C8225C /* ZCNavViewController.xib in Resources */,
 				37DFC8551D858EC70035F377 /* ZCCommentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -933,6 +942,7 @@
 				37FF6C7F1D7304F50070161A /* ZCVerticalButton.m in Sources */,
 				050926381DA4E7BA00933951 /* ZCMessageViewController.m in Sources */,
 				0522E0C31DA3C60100CB390C /* ZCShop.m in Sources */,
+				050D8C471DAD437000C8225C /* ZCNavViewController.m in Sources */,
 				371BC2F11D8D879800327E3D /* UIImage+ZCExtension.m in Sources */,
 				0522E0BA1DA396CB00CB390C /* ZCCircleLayout.m in Sources */,
 				372896671D69FC5200F103DF /* ZCTabBarController.m in Sources */,
@@ -1003,8 +1013,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1048,8 +1060,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -1080,7 +1094,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = 2CDEN824BH;
-				GCC_PREFIX_HEADER = "/Users/LPPZ-User02/Desktop/appDemo/百思不得姐/zc.pch";
+				GCC_PREFIX_HEADER = "百思不得姐/zc.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zhangcheng.-----";
@@ -1095,7 +1109,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				DEVELOPMENT_TEAM = 2CDEN824BH;
-				GCC_PREFIX_HEADER = "/Users/LPPZ-User02/Desktop/appDemo/百思不得姐/zc.pch";
+				GCC_PREFIX_HEADER = "百思不得姐/zc.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "zhangcheng.-----";

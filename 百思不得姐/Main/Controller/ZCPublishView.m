@@ -17,6 +17,7 @@
 #import "ZCMoveViewController.h"
 #import "ZCHittestAndPointViewController.h"
 #import "ZCDrawerViewController.h"
+#import "ZCNavViewController.h"
 @interface ZCPublishView ()
 @end
 
@@ -141,7 +142,7 @@ static UIWindow *window_;
 //            ZCPostWordViewController *wordVC = [[ZCPostWordViewController alloc]init];
 //            wordVC.title = @"发表文字";
             
-            ZCDrawerViewController *wordVC = [[ZCDrawerViewController alloc]init];
+            ZCNavViewController *wordVC = [[ZCNavViewController alloc]init];
             
             ZCNavigationController *nav = [[ZCNavigationController alloc]initWithRootViewController:wordVC];
             [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:nav animated:YES completion:nil];
