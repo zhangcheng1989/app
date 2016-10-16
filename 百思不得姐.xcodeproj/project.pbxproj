@@ -39,6 +39,8 @@
 		054B478C1DAA3B45000C10A2 /* ZCDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054B478B1DAA3B45000C10A2 /* ZCDrawerViewController.m */; };
 		0589CA131DA2A8330049A1DA /* ZCLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0589CA121DA2A8330049A1DA /* ZCLineLayout.m */; };
 		05992E6D1DB3CAEE0018A475 /* ZCNavLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05992E6C1DB3CAEE0018A475 /* ZCNavLabel.m */; };
+		05992E711DB3D1F70018A475 /* ZCScrollerVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05992E6F1DB3D1F70018A475 /* ZCScrollerVCViewController.m */; };
+		05992E721DB3D1F70018A475 /* ZCScrollerVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05992E701DB3D1F70018A475 /* ZCScrollerVCViewController.xib */; };
 		3706DD971D6B4A5D00CEE562 /* ZCFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3706DD961D6B4A5D00CEE562 /* ZCFriendTrendsViewController.xib */; };
 		3706DD9B1D6B52C700CEE562 /* ZCRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706DD991D6B52C700CEE562 /* ZCRecommendViewController.m */; };
 		3706DD9C1D6B52C700CEE562 /* ZCRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3706DD9A1D6B52C700CEE562 /* ZCRecommendViewController.xib */; };
@@ -178,6 +180,9 @@
 		0589CA121DA2A8330049A1DA /* ZCLineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCLineLayout.m; sourceTree = "<group>"; };
 		05992E6B1DB3CAEE0018A475 /* ZCNavLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNavLabel.h; sourceTree = "<group>"; };
 		05992E6C1DB3CAEE0018A475 /* ZCNavLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNavLabel.m; sourceTree = "<group>"; };
+		05992E6E1DB3D1F70018A475 /* ZCScrollerVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCScrollerVCViewController.h; sourceTree = "<group>"; };
+		05992E6F1DB3D1F70018A475 /* ZCScrollerVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCScrollerVCViewController.m; sourceTree = "<group>"; };
+		05992E701DB3D1F70018A475 /* ZCScrollerVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCScrollerVCViewController.xib; sourceTree = "<group>"; };
 		3706DD961D6B4A5D00CEE562 /* ZCFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		3706DD981D6B52C700CEE562 /* ZCRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCRecommendViewController.h; sourceTree = "<group>"; };
 		3706DD991D6B52C700CEE562 /* ZCRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCRecommendViewController.m; sourceTree = "<group>"; };
@@ -651,6 +656,9 @@
 				050D8C461DAD437000C8225C /* ZCNavViewController.xib */,
 				05407E041DB361AD002539C4 /* ZCSocialViewController.h */,
 				05407E051DB361AD002539C4 /* ZCSocialViewController.m */,
+				05992E6E1DB3D1F70018A475 /* ZCScrollerVCViewController.h */,
+				05992E6F1DB3D1F70018A475 /* ZCScrollerVCViewController.m */,
+				05992E701DB3D1F70018A475 /* ZCScrollerVCViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -867,6 +875,7 @@
 				050926431DA4F06800933951 /* message.plist in Resources */,
 				37B32ED51D7AB47A005C09F9 /* ZCTopicCell.xib in Resources */,
 				37DFC84A1D8549C30035F377 /* ZCTopicVideoView.xib in Resources */,
+				05992E721DB3D1F70018A475 /* ZCScrollerVCViewController.xib in Resources */,
 				372676E81D8059FC00F3C90E /* ZCPublishView.xib in Resources */,
 				37C96F131D716EE500AF357B /* ZCRecommendTagCell.xib in Resources */,
 				37C122ED1D6CA36C00A98A17 /* ZCRecommendCategoryCell.xib in Resources */,
@@ -941,6 +950,7 @@
 				05992E6D1DB3CAEE0018A475 /* ZCNavLabel.m in Sources */,
 				37FF6C7B1D72D61F0070161A /* ZCLoginRegisterViewController.m in Sources */,
 				37ABE97C1D7C42CB003FEFC9 /* ZCTopicTableViewController.m in Sources */,
+				05992E711DB3D1F70018A475 /* ZCScrollerVCViewController.m in Sources */,
 				054B47801DAA21C4000C10A2 /* ZCBlueView.m in Sources */,
 				37991A0E1D9653D0006CB8C8 /* ZCAddTagViewController.m in Sources */,
 				3728965A1D69FC0000F103DF /* ZCEssenceViewController.m in Sources */,

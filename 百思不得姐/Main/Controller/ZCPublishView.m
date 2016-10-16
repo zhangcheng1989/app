@@ -18,6 +18,7 @@
 #import "ZCHittestAndPointViewController.h"
 #import "ZCDrawerViewController.h"
 #import "ZCNavViewController.h"
+#import "ZCScrollerVCViewController.h"
 @interface ZCPublishView ()
 @end
 
@@ -142,8 +143,8 @@ static UIWindow *window_;
 //            ZCPostWordViewController *wordVC = [[ZCPostWordViewController alloc]init];
 //            wordVC.title = @"发表文字";
             
-            ZCNavViewController *wordVC = [[ZCNavViewController alloc]init];
-            wordVC.title = @"网易新闻";
+            ZCScrollerVCViewController *wordVC = [[ZCScrollerVCViewController alloc]init];
+            wordVC.title = @"scrollerView内部控件";
             ZCNavigationController *nav = [[ZCNavigationController alloc]initWithRootViewController:wordVC];
             [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:nav animated:YES completion:nil];
         }
