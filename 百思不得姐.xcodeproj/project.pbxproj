@@ -26,6 +26,7 @@
 		0522E0BD1DA3AF7600CB390C /* ZCWaterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0522E0BC1DA3AF7600CB390C /* ZCWaterLayout.m */; };
 		0522E0C01DA3AF9500CB390C /* ZCWaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0522E0BF1DA3AF9500CB390C /* ZCWaterViewController.m */; };
 		0522E0C31DA3C60100CB390C /* ZCShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 0522E0C21DA3C60100CB390C /* ZCShop.m */; };
+		05407E061DB361AD002539C4 /* ZCSocialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05407E051DB361AD002539C4 /* ZCSocialViewController.m */; };
 		054B47701DAA20DA000C10A2 /* ZCHittestAndPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054B476E1DAA20DA000C10A2 /* ZCHittestAndPointViewController.m */; };
 		054B47711DAA20DA000C10A2 /* ZCHittestAndPointViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 054B476F1DAA20DA000C10A2 /* ZCHittestAndPointViewController.xib */; };
 		054B47741DAA2116000C10A2 /* ZCBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 054B47731DAA2116000C10A2 /* ZCBaseView.m */; };
@@ -37,6 +38,7 @@
 		054B47891DAA2F6A000C10A2 /* ZCPopBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 054B47881DAA2F6A000C10A2 /* ZCPopBtn.m */; };
 		054B478C1DAA3B45000C10A2 /* ZCDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054B478B1DAA3B45000C10A2 /* ZCDrawerViewController.m */; };
 		0589CA131DA2A8330049A1DA /* ZCLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0589CA121DA2A8330049A1DA /* ZCLineLayout.m */; };
+		05992E6D1DB3CAEE0018A475 /* ZCNavLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05992E6C1DB3CAEE0018A475 /* ZCNavLabel.m */; };
 		3706DD971D6B4A5D00CEE562 /* ZCFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3706DD961D6B4A5D00CEE562 /* ZCFriendTrendsViewController.xib */; };
 		3706DD9B1D6B52C700CEE562 /* ZCRecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706DD991D6B52C700CEE562 /* ZCRecommendViewController.m */; };
 		3706DD9C1D6B52C700CEE562 /* ZCRecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3706DD9A1D6B52C700CEE562 /* ZCRecommendViewController.xib */; };
@@ -151,6 +153,8 @@
 		0522E0BF1DA3AF9500CB390C /* ZCWaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCWaterViewController.m; sourceTree = "<group>"; };
 		0522E0C11DA3C60100CB390C /* ZCShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZCShop.h; path = "百思不得姐/Main/View/ZCShop.h"; sourceTree = SOURCE_ROOT; };
 		0522E0C21DA3C60100CB390C /* ZCShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZCShop.m; path = "百思不得姐/Main/View/ZCShop.m"; sourceTree = SOURCE_ROOT; };
+		05407E041DB361AD002539C4 /* ZCSocialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCSocialViewController.h; sourceTree = "<group>"; };
+		05407E051DB361AD002539C4 /* ZCSocialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCSocialViewController.m; sourceTree = "<group>"; };
 		054B476D1DAA20DA000C10A2 /* ZCHittestAndPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCHittestAndPointViewController.h; sourceTree = "<group>"; };
 		054B476E1DAA20DA000C10A2 /* ZCHittestAndPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCHittestAndPointViewController.m; sourceTree = "<group>"; };
 		054B476F1DAA20DA000C10A2 /* ZCHittestAndPointViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCHittestAndPointViewController.xib; sourceTree = "<group>"; };
@@ -172,6 +176,8 @@
 		054B478B1DAA3B45000C10A2 /* ZCDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCDrawerViewController.m; sourceTree = "<group>"; };
 		0589CA111DA2A8330049A1DA /* ZCLineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCLineLayout.h; sourceTree = "<group>"; };
 		0589CA121DA2A8330049A1DA /* ZCLineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCLineLayout.m; sourceTree = "<group>"; };
+		05992E6B1DB3CAEE0018A475 /* ZCNavLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNavLabel.h; sourceTree = "<group>"; };
+		05992E6C1DB3CAEE0018A475 /* ZCNavLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNavLabel.m; sourceTree = "<group>"; };
 		3706DD961D6B4A5D00CEE562 /* ZCFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		3706DD981D6B52C700CEE562 /* ZCRecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCRecommendViewController.h; sourceTree = "<group>"; };
 		3706DD991D6B52C700CEE562 /* ZCRecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCRecommendViewController.m; sourceTree = "<group>"; };
@@ -643,6 +649,8 @@
 				050D8C441DAD437000C8225C /* ZCNavViewController.h */,
 				050D8C451DAD437000C8225C /* ZCNavViewController.m */,
 				050D8C461DAD437000C8225C /* ZCNavViewController.xib */,
+				05407E041DB361AD002539C4 /* ZCSocialViewController.h */,
+				05407E051DB361AD002539C4 /* ZCSocialViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -698,6 +706,8 @@
 				054B47851DAA2236000C10A2 /* ZCYellowView.m */,
 				054B47871DAA2F6A000C10A2 /* ZCPopBtn.h */,
 				054B47881DAA2F6A000C10A2 /* ZCPopBtn.m */,
+				05992E6B1DB3CAEE0018A475 /* ZCNavLabel.h */,
+				05992E6C1DB3CAEE0018A475 /* ZCNavLabel.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -921,12 +931,14 @@
 				054B47701DAA20DA000C10A2 /* ZCHittestAndPointViewController.m in Sources */,
 				378F98051D7F07A200343EF3 /* ZCProgressView.m in Sources */,
 				37C96F081D71594500AF357B /* ZCRecommendTagsViewController.m in Sources */,
+				05407E061DB361AD002539C4 /* ZCSocialViewController.m in Sources */,
 				050926401DA4EBD600933951 /* ZCMessageCell.m in Sources */,
 				054B478C1DAA3B45000C10A2 /* ZCDrawerViewController.m in Sources */,
 				37DFC8431D85365D0035F377 /* ZCTopicVoiceView.m in Sources */,
 				3728966F1D69FCE500F103DF /* UIBarButtonItem+ZCExtension.m in Sources */,
 				37B32ED41D7AB47A005C09F9 /* ZCTopicCell.m in Sources */,
 				372676E71D8059FC00F3C90E /* ZCPublishView.m in Sources */,
+				05992E6D1DB3CAEE0018A475 /* ZCNavLabel.m in Sources */,
 				37FF6C7B1D72D61F0070161A /* ZCLoginRegisterViewController.m in Sources */,
 				37ABE97C1D7C42CB003FEFC9 /* ZCTopicTableViewController.m in Sources */,
 				054B47801DAA21C4000C10A2 /* ZCBlueView.m in Sources */,
