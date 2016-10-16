@@ -9,9 +9,9 @@
 #import "ZCNavLabel.h"
 
 
-#define ZCRed 0.4
-#define ZCGreen 0.6
-#define ZCBlue 0.7
+const CGFloat ZCRed = 0.4;
+const CGFloat ZCGreen = 0.6;
+const CGFloat ZCBlue = 0.7;
 
 @implementation ZCNavLabel
 

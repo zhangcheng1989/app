@@ -141,6 +141,13 @@
     [self.titleScrollerView setContentOffset:titleOffset animated:YES];
     
     
+    //让其他UILabel回到初始状态
+    for (ZCNavLabel *otherLabel  in self.titleScrollerView.subviews) {
+        if (otherLabel != lab)  otherLabel.scale = 0.0;
+        
+    }
+    
+    
     UIViewController *willShowVC = self.childViewControllers[index];
     
     //当前控制器被加载后，就直接返回
@@ -158,6 +165,8 @@
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView{
     
     CGFloat scale = scrollView.contentOffset.x / scrollView.frame.size.width;
+    
+    if (scale < 0 || scale > self.titleScrollerView.subviews.count - 1) return;
     
     //获取左边Label
     NSInteger leftIndex = scale;
