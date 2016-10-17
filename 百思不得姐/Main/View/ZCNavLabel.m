@@ -9,9 +9,9 @@
 #import "ZCNavLabel.h"
 
 
-const CGFloat ZCRed = 0.4;
-const CGFloat ZCGreen = 0.6;
-const CGFloat ZCBlue = 0.7;
+static const CGFloat ZCRed = 0.4;
+static const CGFloat ZCGreen = 0.6;
+static const CGFloat ZCBlue = 0.7;
 
 @implementation ZCNavLabel
 
@@ -28,7 +28,6 @@ const CGFloat ZCBlue = 0.7;
 
 - (void)setScale:(CGFloat)scale{
     _scale = scale;
-    
     
     CGFloat red = ZCRed + (1 - ZCRed)*scale;
     CGFloat green = ZCGreen + (0 - ZCGreen) *scale;
