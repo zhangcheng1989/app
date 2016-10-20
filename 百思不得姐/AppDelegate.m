@@ -25,6 +25,7 @@
     [self.window makeKeyAndVisible];
     
     [ZCPushGuideView show];
+    
 
     return YES;
 }

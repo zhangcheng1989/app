@@ -20,6 +20,7 @@
 #import "ZCNavViewController.h"
 #import "ZCScrollerVCViewController.h"
 #import "ZCScrollerVLayoutViewController.h"
+#import "ZCNSOperationViewController.h"
 @interface ZCPublishView ()
 @end
 
@@ -144,8 +145,8 @@ static UIWindow *window_;
 //            ZCPostWordViewController *wordVC = [[ZCPostWordViewController alloc]init];
 //            wordVC.title = @"发表文字";
             
-            ZCNavViewController *wordVC = [[ZCNavViewController alloc]init];
-            wordVC.title = @"模仿网易导航栏";
+            ZCNSOperationViewController *wordVC = [[ZCNSOperationViewController alloc]init];
+            wordVC.title = @"NSOperation最大并发数";
             ZCNavigationController *nav = [[ZCNavigationController alloc]initWithRootViewController:wordVC];
             [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:nav animated:YES completion:nil];
         }

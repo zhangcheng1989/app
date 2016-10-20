@@ -16,6 +16,8 @@
 		050926411DA4EBD600933951 /* ZCMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0509263F1DA4EBD600933951 /* ZCMessageCell.xib */; };
 		050926431DA4F06800933951 /* message.plist in Resources */ = {isa = PBXBuildFile; fileRef = 050926421DA4F06800933951 /* message.plist */; };
 		050926461DA4F12700933951 /* ZCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 050926451DA4F12700933951 /* ZCMessage.m */; };
+		0509A2911DB7C05C0036241D /* ZCNSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0509A28F1DB7C05C0036241D /* ZCNSOperationViewController.m */; };
+		0509A2921DB7C05C0036241D /* ZCNSOperationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0509A2901DB7C05C0036241D /* ZCNSOperationViewController.xib */; };
 		050B49151D9C1DB200A0D71C /* ZCCCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 050B49141D9C1DB200A0D71C /* ZCCCustomViewController.m */; };
 		050D8C471DAD437000C8225C /* ZCNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 050D8C451DAD437000C8225C /* ZCNavViewController.m */; };
 		050D8C481DAD437000C8225C /* ZCNavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050D8C461DAD437000C8225C /* ZCNavViewController.xib */; };
@@ -139,6 +141,10 @@
 		050926421DA4F06800933951 /* message.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = message.plist; sourceTree = "<group>"; };
 		050926441DA4F12700933951 /* ZCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZCMessage.h; path = "百思不得姐/ZCMessage.h"; sourceTree = SOURCE_ROOT; };
 		050926451DA4F12700933951 /* ZCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZCMessage.m; path = "百思不得姐/ZCMessage.m"; sourceTree = SOURCE_ROOT; };
+		0509A28D1DB7A6A70036241D /* ZCSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCSingleton.h; sourceTree = "<group>"; };
+		0509A28E1DB7C05C0036241D /* ZCNSOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNSOperationViewController.h; sourceTree = "<group>"; };
+		0509A28F1DB7C05C0036241D /* ZCNSOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNSOperationViewController.m; sourceTree = "<group>"; };
+		0509A2901DB7C05C0036241D /* ZCNSOperationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCNSOperationViewController.xib; sourceTree = "<group>"; };
 		050B49131D9C1DB200A0D71C /* ZCCCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCCustomViewController.h; sourceTree = "<group>"; };
 		050B49141D9C1DB200A0D71C /* ZCCCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCCustomViewController.m; sourceTree = "<group>"; };
 		050D8C441DAD437000C8225C /* ZCNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNavViewController.h; sourceTree = "<group>"; };
@@ -405,6 +411,7 @@
 				37B32ECE1D7AAB53005C09F9 /* ZCConst.h */,
 				37B32ECF1D7AAB53005C09F9 /* ZCConst.m */,
 				050926421DA4F06800933951 /* message.plist */,
+				0509A28D1DB7A6A70036241D /* ZCSingleton.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -667,6 +674,9 @@
 				05992E731DB3DAD50018A475 /* ZCScrollerVLayoutViewController.h */,
 				05992E741DB3DAD50018A475 /* ZCScrollerVLayoutViewController.m */,
 				05992E751DB3DAD50018A475 /* ZCScrollerVLayoutViewController.xib */,
+				0509A28E1DB7C05C0036241D /* ZCNSOperationViewController.h */,
+				0509A28F1DB7C05C0036241D /* ZCNSOperationViewController.m */,
+				0509A2901DB7C05C0036241D /* ZCNSOperationViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -883,6 +893,7 @@
 				378F98021D7F032C00343EF3 /* ZCShowPicureViewController.xib in Resources */,
 				050926431DA4F06800933951 /* message.plist in Resources */,
 				37B32ED51D7AB47A005C09F9 /* ZCTopicCell.xib in Resources */,
+				0509A2921DB7C05C0036241D /* ZCNSOperationViewController.xib in Resources */,
 				37DFC84A1D8549C30035F377 /* ZCTopicVideoView.xib in Resources */,
 				05992E721DB3D1F70018A475 /* ZCScrollerVCViewController.xib in Resources */,
 				372676E81D8059FC00F3C90E /* ZCPublishView.xib in Resources */,
@@ -992,6 +1003,7 @@
 				371BE26D1D980CC3000C7DAB /* ZCTagTextField.m in Sources */,
 				37E342C21D96D84200FFB8DA /* ZCTagButton.m in Sources */,
 				37FE7D6F1D8AF20900BC7642 /* ZCCommentCell.m in Sources */,
+				0509A2911DB7C05C0036241D /* ZCNSOperationViewController.m in Sources */,
 				054B47771DAA213E000C10A2 /* ZCGreenView.m in Sources */,
 				37C96F121D716EE500AF357B /* ZCRecommendTagCell.m in Sources */,
 				377734B41D95797200A8E91E /* ZCAddTagToolBar.m in Sources */,
