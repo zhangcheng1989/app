@@ -38,7 +38,7 @@
  在子线程中长期监控一些行文
  
 自动释放池什么时候释放
- 在RunLoop睡眠之前释放(KCFRunLoopBeforeWating)
+ 通过Observer监听RunLoop的状态，一旦监听到RunLoop即将进入睡眠等待状态就释放自动释放池(KCFRunLoopBeforeWating)
  
  */
 - (void)run{
