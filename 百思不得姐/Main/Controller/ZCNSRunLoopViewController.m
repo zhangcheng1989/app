@@ -30,7 +30,7 @@
 什么是RunLoop
  运行循环，在这个循环内部不断的处理各种任务事件（Source，Timer，Observer）
  一个线程对应一个RunLoop，主线程的RunLoop默认已经启动，子线程的RunLoop需要手动启动
- RunLoop只能选择一个Mode启动，如果当前Mode中没有任何Source，Timer，Observer直接退出RunLoop
+ RunLoop只能选择一个Mode启动，如果当前Mode中没有任何Source（Source0,Source1），Timer那么直接退出RunLoop
  
 在开发中如何使用RunLoop,应用于什么场景
  开启一个常驻线程（让一个子线程不进入消亡状态，等待其他线程发来消息，处理其他事件）
