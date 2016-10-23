@@ -21,6 +21,9 @@
 #import "ZCScrollerVCViewController.h"
 #import "ZCScrollerVLayoutViewController.h"
 #import "ZCNSOperationViewController.h"
+#import "ZCDownImageViewController.h"
+#import "ZCNSRunLoopViewController.h"
+#import "ZCGCDTimerViewController.h"
 @interface ZCPublishView ()
 @end
 
@@ -145,8 +148,8 @@ static UIWindow *window_;
 //            ZCPostWordViewController *wordVC = [[ZCPostWordViewController alloc]init];
 //            wordVC.title = @"发表文字";
             
-            ZCNSOperationViewController *wordVC = [[ZCNSOperationViewController alloc]init];
-            wordVC.title = @"NSOperation最大并发数";
+            ZCGCDTimerViewController *wordVC = [[ZCGCDTimerViewController alloc]init];
+            wordVC.title = @"GCD的定时器";
             ZCNavigationController *nav = [[ZCNavigationController alloc]initWithRootViewController:wordVC];
             [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:nav animated:YES completion:nil];
         }

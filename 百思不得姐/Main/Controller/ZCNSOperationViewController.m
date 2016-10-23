@@ -30,13 +30,13 @@
     
     //下载图片
     NSBlockOperation *op1 = [NSBlockOperation blockOperationWithBlock:^{
-        NSURL *url = [NSURL URLWithString:@""];
+        NSURL *url = [NSURL URLWithString:@"http://img3.duitang.com/uploads/item/201506/06/20150606152359_PHyRc.thumb.224_0.jpeg"];
         NSData *data = [NSData dataWithContentsOfURL:url];
         image1 = [UIImage imageWithData:data];
     }];
     
     NSBlockOperation *op2 = [NSBlockOperation blockOperationWithBlock:^{
-        NSURL *url = [NSURL URLWithString:@""];
+        NSURL *url = [NSURL URLWithString:@"http://img3.duitang.com/uploads/item/201506/06/20150606152359_PHyRc.thumb.224_0.jpeg"];
         NSData *data = [NSData dataWithContentsOfURL:url];
         image2 = [UIImage imageWithData:data];
     }];

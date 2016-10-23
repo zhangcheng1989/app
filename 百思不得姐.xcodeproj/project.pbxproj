@@ -19,8 +19,14 @@
 		0509A2911DB7C05C0036241D /* ZCNSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0509A28F1DB7C05C0036241D /* ZCNSOperationViewController.m */; };
 		0509A2921DB7C05C0036241D /* ZCNSOperationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0509A2901DB7C05C0036241D /* ZCNSOperationViewController.xib */; };
 		050B49151D9C1DB200A0D71C /* ZCCCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 050B49141D9C1DB200A0D71C /* ZCCCustomViewController.m */; };
+		050C70AF1DBB02D90073AB48 /* ZCNSRunLoopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050C70AE1DBB02D90073AB48 /* ZCNSRunLoopViewController.xib */; };
 		050D8C471DAD437000C8225C /* ZCNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 050D8C451DAD437000C8225C /* ZCNavViewController.m */; };
 		050D8C481DAD437000C8225C /* ZCNavViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050D8C461DAD437000C8225C /* ZCNavViewController.xib */; };
+		050E6CE01DBD047B00E803A4 /* ZCGCDTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 050E6CDE1DBD047B00E803A4 /* ZCGCDTimerViewController.m */; };
+		050E6CE11DBD047B00E803A4 /* ZCGCDTimerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050E6CDF1DBD047B00E803A4 /* ZCGCDTimerViewController.xib */; };
+		05116E591DBA5F5400EB07D8 /* ZCDownImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05116E571DBA5F5400EB07D8 /* ZCDownImageViewController.m */; };
+		05116E5A1DBA5F5400EB07D8 /* ZCDownImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05116E581DBA5F5400EB07D8 /* ZCDownImageViewController.xib */; };
+		05116E5D1DBA641200EB07D8 /* ZCNSRunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05116E5C1DBA641200EB07D8 /* ZCNSRunLoopViewController.m */; };
 		0522E0B31DA3621900CB390C /* ZCPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0522E0B11DA3621900CB390C /* ZCPhotoCell.m */; };
 		0522E0B41DA3621900CB390C /* ZCPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0522E0B21DA3621900CB390C /* ZCPhotoCell.xib */; };
 		0522E0B71DA3908500CB390C /* ZCGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0522E0B61DA3908500CB390C /* ZCGridLayout.m */; };
@@ -147,9 +153,18 @@
 		0509A2901DB7C05C0036241D /* ZCNSOperationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCNSOperationViewController.xib; sourceTree = "<group>"; };
 		050B49131D9C1DB200A0D71C /* ZCCCustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCCustomViewController.h; sourceTree = "<group>"; };
 		050B49141D9C1DB200A0D71C /* ZCCCustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCCustomViewController.m; sourceTree = "<group>"; };
+		050C70AE1DBB02D90073AB48 /* ZCNSRunLoopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCNSRunLoopViewController.xib; sourceTree = "<group>"; };
 		050D8C441DAD437000C8225C /* ZCNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNavViewController.h; sourceTree = "<group>"; };
 		050D8C451DAD437000C8225C /* ZCNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNavViewController.m; sourceTree = "<group>"; };
 		050D8C461DAD437000C8225C /* ZCNavViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCNavViewController.xib; sourceTree = "<group>"; };
+		050E6CDD1DBD047B00E803A4 /* ZCGCDTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCGCDTimerViewController.h; sourceTree = "<group>"; };
+		050E6CDE1DBD047B00E803A4 /* ZCGCDTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCGCDTimerViewController.m; sourceTree = "<group>"; };
+		050E6CDF1DBD047B00E803A4 /* ZCGCDTimerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCGCDTimerViewController.xib; sourceTree = "<group>"; };
+		05116E561DBA5F5400EB07D8 /* ZCDownImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCDownImageViewController.h; sourceTree = "<group>"; };
+		05116E571DBA5F5400EB07D8 /* ZCDownImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCDownImageViewController.m; sourceTree = "<group>"; };
+		05116E581DBA5F5400EB07D8 /* ZCDownImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCDownImageViewController.xib; sourceTree = "<group>"; };
+		05116E5B1DBA641200EB07D8 /* ZCNSRunLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNSRunLoopViewController.h; sourceTree = "<group>"; };
+		05116E5C1DBA641200EB07D8 /* ZCNSRunLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNSRunLoopViewController.m; sourceTree = "<group>"; };
 		0522E0B01DA3621900CB390C /* ZCPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCPhotoCell.h; sourceTree = "<group>"; };
 		0522E0B11DA3621900CB390C /* ZCPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCPhotoCell.m; sourceTree = "<group>"; };
 		0522E0B21DA3621900CB390C /* ZCPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCPhotoCell.xib; sourceTree = "<group>"; };
@@ -677,6 +692,15 @@
 				0509A28E1DB7C05C0036241D /* ZCNSOperationViewController.h */,
 				0509A28F1DB7C05C0036241D /* ZCNSOperationViewController.m */,
 				0509A2901DB7C05C0036241D /* ZCNSOperationViewController.xib */,
+				05116E561DBA5F5400EB07D8 /* ZCDownImageViewController.h */,
+				05116E571DBA5F5400EB07D8 /* ZCDownImageViewController.m */,
+				05116E581DBA5F5400EB07D8 /* ZCDownImageViewController.xib */,
+				05116E5B1DBA641200EB07D8 /* ZCNSRunLoopViewController.h */,
+				05116E5C1DBA641200EB07D8 /* ZCNSRunLoopViewController.m */,
+				050C70AE1DBB02D90073AB48 /* ZCNSRunLoopViewController.xib */,
+				050E6CDD1DBD047B00E803A4 /* ZCGCDTimerViewController.h */,
+				050E6CDE1DBD047B00E803A4 /* ZCGCDTimerViewController.m */,
+				050E6CDF1DBD047B00E803A4 /* ZCGCDTimerViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -881,6 +905,7 @@
 			files = (
 				377949B01D6DD8A100C46CAA /* ZCRecommendUserCell.xib in Resources */,
 				05992E771DB3DAD50018A475 /* ZCScrollerVLayoutViewController.xib in Resources */,
+				050C70AF1DBB02D90073AB48 /* ZCNSRunLoopViewController.xib in Resources */,
 				050926391DA4E7BA00933951 /* ZCMessageViewController.xib in Resources */,
 				054B47711DAA20DA000C10A2 /* ZCHittestAndPointViewController.xib in Resources */,
 				37FF6C7C1D72D61F0070161A /* ZCLoginRegisterViewController.xib in Resources */,
@@ -888,6 +913,7 @@
 				37453E8A1D7C72F400FB1E87 /* ZCTopicpicureView.xib in Resources */,
 				37C6679F1D7477FA0021DEA3 /* ZCPushGuideView.xib in Resources */,
 				3706DD9C1D6B52C700CEE562 /* ZCRecommendViewController.xib in Resources */,
+				05116E5A1DBA5F5400EB07D8 /* ZCDownImageViewController.xib in Resources */,
 				377782AD1D90283200C5875B /* ZCWebViewController.xib in Resources */,
 				050926411DA4EBD600933951 /* ZCMessageCell.xib in Resources */,
 				378F98021D7F032C00343EF3 /* ZCShowPicureViewController.xib in Resources */,
@@ -905,6 +931,7 @@
 				0502785A1DA9382500117654 /* ZCMoveViewController.xib in Resources */,
 				0522E0B41DA3621900CB390C /* ZCPhotoCell.xib in Resources */,
 				372896131D69AB0D00F103DF /* Assets.xcassets in Resources */,
+				050E6CE11DBD047B00E803A4 /* ZCGCDTimerViewController.xib in Resources */,
 				050D8C481DAD437000C8225C /* ZCNavViewController.xib in Resources */,
 				37DFC8551D858EC70035F377 /* ZCCommentViewController.xib in Resources */,
 			);
@@ -952,6 +979,7 @@
 			files = (
 				370A41051D8EF1BB008B9EE6 /* ZCMeCell.m in Sources */,
 				37C6679D1D7477E20021DEA3 /* ZCPushGuideView.m in Sources */,
+				05116E5D1DBA641200EB07D8 /* ZCNSRunLoopViewController.m in Sources */,
 				050B49151D9C1DB200A0D71C /* ZCCCustomViewController.m in Sources */,
 				372433F81D996BD500D82316 /* ZCSettingTableViewController.m in Sources */,
 				3728964D1D69FBF900F103DF /* ZCNewViewController.m in Sources */,
@@ -959,6 +987,7 @@
 				3706DDA01D6B55ED00CEE562 /* ZCHttpApi.m in Sources */,
 				054B47701DAA20DA000C10A2 /* ZCHittestAndPointViewController.m in Sources */,
 				378F98051D7F07A200343EF3 /* ZCProgressView.m in Sources */,
+				050E6CE01DBD047B00E803A4 /* ZCGCDTimerViewController.m in Sources */,
 				37C96F081D71594500AF357B /* ZCRecommendTagsViewController.m in Sources */,
 				05407E061DB361AD002539C4 /* ZCSocialViewController.m in Sources */,
 				050926401DA4EBD600933951 /* ZCMessageCell.m in Sources */,
@@ -971,6 +1000,7 @@
 				37FF6C7B1D72D61F0070161A /* ZCLoginRegisterViewController.m in Sources */,
 				37ABE97C1D7C42CB003FEFC9 /* ZCTopicTableViewController.m in Sources */,
 				05992E711DB3D1F70018A475 /* ZCScrollerVCViewController.m in Sources */,
+				05116E591DBA5F5400EB07D8 /* ZCDownImageViewController.m in Sources */,
 				054B47801DAA21C4000C10A2 /* ZCBlueView.m in Sources */,
 				37991A0E1D9653D0006CB8C8 /* ZCAddTagViewController.m in Sources */,
 				3728965A1D69FC0000F103DF /* ZCEssenceViewController.m in Sources */,
