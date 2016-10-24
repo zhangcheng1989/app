@@ -27,6 +27,7 @@
 		05116E591DBA5F5400EB07D8 /* ZCDownImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05116E571DBA5F5400EB07D8 /* ZCDownImageViewController.m */; };
 		05116E5A1DBA5F5400EB07D8 /* ZCDownImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05116E581DBA5F5400EB07D8 /* ZCDownImageViewController.xib */; };
 		05116E5D1DBA641200EB07D8 /* ZCNSRunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05116E5C1DBA641200EB07D8 /* ZCNSRunLoopViewController.m */; };
+		0512E8CA1DBE45FD00561A61 /* NSObject+ZCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0512E8C91DBE45FD00561A61 /* NSObject+ZCExtension.m */; };
 		0522E0B31DA3621900CB390C /* ZCPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0522E0B11DA3621900CB390C /* ZCPhotoCell.m */; };
 		0522E0B41DA3621900CB390C /* ZCPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0522E0B21DA3621900CB390C /* ZCPhotoCell.xib */; };
 		0522E0B71DA3908500CB390C /* ZCGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0522E0B61DA3908500CB390C /* ZCGridLayout.m */; };
@@ -165,6 +166,8 @@
 		05116E581DBA5F5400EB07D8 /* ZCDownImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCDownImageViewController.xib; sourceTree = "<group>"; };
 		05116E5B1DBA641200EB07D8 /* ZCNSRunLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNSRunLoopViewController.h; sourceTree = "<group>"; };
 		05116E5C1DBA641200EB07D8 /* ZCNSRunLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNSRunLoopViewController.m; sourceTree = "<group>"; };
+		0512E8C81DBE45FD00561A61 /* NSObject+ZCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZCExtension.h"; sourceTree = "<group>"; };
+		0512E8C91DBE45FD00561A61 /* NSObject+ZCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZCExtension.m"; sourceTree = "<group>"; };
 		0522E0B01DA3621900CB390C /* ZCPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCPhotoCell.h; sourceTree = "<group>"; };
 		0522E0B11DA3621900CB390C /* ZCPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCPhotoCell.m; sourceTree = "<group>"; };
 		0522E0B21DA3621900CB390C /* ZCPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCPhotoCell.xib; sourceTree = "<group>"; };
@@ -784,6 +787,8 @@
 				371BC2F01D8D879800327E3D /* UIImage+ZCExtension.m */,
 				371BC2F21D8D8C4100327E3D /* UIImageView+ZCExtension.h */,
 				371BC2F31D8D8C4100327E3D /* UIImageView+ZCExtension.m */,
+				0512E8C81DBE45FD00561A61 /* NSObject+ZCExtension.h */,
+				0512E8C91DBE45FD00561A61 /* NSObject+ZCExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1025,6 +1030,7 @@
 				0502785D1DA9385A00117654 /* ZCReadView.m in Sources */,
 				370A410B1D8EF813008B9EE6 /* ZCSquare.m in Sources */,
 				054B477D1DAA219C000C10A2 /* ZCOrignView.m in Sources */,
+				0512E8CA1DBE45FD00561A61 /* NSObject+ZCExtension.m in Sources */,
 				37FF6C821D732C0D0070161A /* ZCTextField.m in Sources */,
 				37C87A991D92D9700066E25F /* ZCPostWordViewController.m in Sources */,
 				370A410E1D8EFB72008B9EE6 /* ZCSquareButton.m in Sources */,

@@ -17,6 +17,24 @@
 @implementation AppDelegate
 
 
+/**
+ 崩溃信息统计
+ 1.友盟
+ 2.flurry
+ 3.Crashlytics
+ */
+void handlerException2(NSException *execption){
+    [execption callStackSymbols];  //调用栈信息(错误来源信息)
+    [execption name]; //异常名字
+    [execption reason]; //异常理由
+}
+
+
+void handlerException(NSException *execption){
+    
+}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     ZCTabBarController *tabBarController = [[ZCTabBarController alloc]init];
@@ -26,6 +44,10 @@
     
     [ZCPushGuideView show];
     
+    
+    
+    
+    NSSetUncaughtExceptionHandler(handlerException);
 
     return YES;
 }

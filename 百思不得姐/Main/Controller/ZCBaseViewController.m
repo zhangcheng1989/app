@@ -15,9 +15,9 @@
 @implementation ZCBaseViewController
 
 + (void)load{
-    Method *method1 = class_getInstanceMethod(self, NSSelectorFromString(@"dealloc"));
+    Method method1 = class_getInstanceMethod(self, NSSelectorFromString(@"dealloc"));
     
-    Method *method2 = class_getInstanceMethod(self, @selector(zc_dealloc));
+    Method method2 = class_getInstanceMethod(self, @selector(zc_dealloc));
 
     method_exchangeImplementations(method1, method2);
 }
@@ -32,6 +32,8 @@
 
 - (void)zc_dealloc{
     NSLog(@"--zc_dealloc----%@",self);
+    
+    [self zc_dealloc];
 }
 
 
