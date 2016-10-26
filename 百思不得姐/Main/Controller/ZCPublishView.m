@@ -24,6 +24,7 @@
 #import "ZCDownImageViewController.h"
 #import "ZCNSRunLoopViewController.h"
 #import "ZCGCDTimerViewController.h"
+#import "ZCNoteViewController.h"
 @interface ZCPublishView ()
 @end
 
@@ -148,8 +149,8 @@ static UIWindow *window_;
 //            ZCPostWordViewController *wordVC = [[ZCPostWordViewController alloc]init];
 //            wordVC.title = @"发表文字";
             
-            ZCGCDTimerViewController *wordVC = [[ZCGCDTimerViewController alloc]init];
-            wordVC.title = @"GCD的定时器";
+            ZCNoteViewController *wordVC = [[ZCNoteViewController alloc]init];
+            wordVC.title = @"本地通知";
             ZCNavigationController *nav = [[ZCNavigationController alloc]initWithRootViewController:wordVC];
             [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:nav animated:YES completion:nil];
         }

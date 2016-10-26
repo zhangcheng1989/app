@@ -44,12 +44,41 @@ void handlerException(NSException *execption){
     
     [ZCPushGuideView show];
     
-    
-    
-    
     NSSetUncaughtExceptionHandler(handlerException);
+    
+    //注册本地通知
+    if ([[UIDevice currentDevice].systemVersion floatValue]>=8.0) {
+        UIUserNotificationSettings *setting = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeBadge|UIUserNotificationTypeSound|UIUserNotificationTypeAlert categories:nil];
+        [application registerUserNotificationSettings:setting];
+    }
 
+    //应用被杀死的情况下
+    if (launchOptions[UIApplicationLaunchOptionsLocalNotificationKey]) {
+        NSLog(@"跳转代码");
+    }
+    
+    //注册远程通知
+    if ([[UIDevice currentDevice].systemVersion floatValue]>=8.0) {
+        UIUserNotificationSettings *setting = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeBadge|UIUserNotificationTypeSound|UIUserNotificationTypeAlert categories:nil];
+        [application registerUserNotificationSettings:setting];
+        [application registerForRemoteNotifications];
+    }else{//iOS7远程通知
+        [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeBadge|UIRemoteNotificationTypeSound|UIRemoteNotificationTypeAlert|UIRemoteNotificationTypeNewsstandContentAvailability];
+    }
+    
     return YES;
+}
+
+
+//获取设备deviceToken
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken{
+    
+}
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification{
+    if (application.applicationState == UIApplicationStateInactive) {
+        NSLog(@"进行页面跳转");
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

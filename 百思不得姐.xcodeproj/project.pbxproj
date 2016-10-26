@@ -47,6 +47,8 @@
 		054B47891DAA2F6A000C10A2 /* ZCPopBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 054B47881DAA2F6A000C10A2 /* ZCPopBtn.m */; };
 		054B478C1DAA3B45000C10A2 /* ZCDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 054B478B1DAA3B45000C10A2 /* ZCDrawerViewController.m */; };
 		0589CA131DA2A8330049A1DA /* ZCLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0589CA121DA2A8330049A1DA /* ZCLineLayout.m */; };
+		058F87E71DBFAB7200284264 /* ZCNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 058F87E51DBFAB7200284264 /* ZCNoteViewController.m */; };
+		058F87E81DBFAB7200284264 /* ZCNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 058F87E61DBFAB7200284264 /* ZCNoteViewController.xib */; };
 		05992E6D1DB3CAEE0018A475 /* ZCNavLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05992E6C1DB3CAEE0018A475 /* ZCNavLabel.m */; };
 		05992E711DB3D1F70018A475 /* ZCScrollerVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05992E6F1DB3D1F70018A475 /* ZCScrollerVCViewController.m */; };
 		05992E721DB3D1F70018A475 /* ZCScrollerVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05992E701DB3D1F70018A475 /* ZCScrollerVCViewController.xib */; };
@@ -204,6 +206,9 @@
 		054B478B1DAA3B45000C10A2 /* ZCDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCDrawerViewController.m; sourceTree = "<group>"; };
 		0589CA111DA2A8330049A1DA /* ZCLineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCLineLayout.h; sourceTree = "<group>"; };
 		0589CA121DA2A8330049A1DA /* ZCLineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCLineLayout.m; sourceTree = "<group>"; };
+		058F87E41DBFAB7200284264 /* ZCNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNoteViewController.h; sourceTree = "<group>"; };
+		058F87E51DBFAB7200284264 /* ZCNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNoteViewController.m; sourceTree = "<group>"; };
+		058F87E61DBFAB7200284264 /* ZCNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCNoteViewController.xib; sourceTree = "<group>"; };
 		05992E6B1DB3CAEE0018A475 /* ZCNavLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNavLabel.h; sourceTree = "<group>"; };
 		05992E6C1DB3CAEE0018A475 /* ZCNavLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNavLabel.m; sourceTree = "<group>"; };
 		05992E6E1DB3D1F70018A475 /* ZCScrollerVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCScrollerVCViewController.h; sourceTree = "<group>"; };
@@ -704,6 +709,9 @@
 				050E6CDD1DBD047B00E803A4 /* ZCGCDTimerViewController.h */,
 				050E6CDE1DBD047B00E803A4 /* ZCGCDTimerViewController.m */,
 				050E6CDF1DBD047B00E803A4 /* ZCGCDTimerViewController.xib */,
+				058F87E41DBFAB7200284264 /* ZCNoteViewController.h */,
+				058F87E51DBFAB7200284264 /* ZCNoteViewController.m */,
+				058F87E61DBFAB7200284264 /* ZCNoteViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -935,6 +943,7 @@
 				377734B61D95797F00A8E91E /* ZCAddTagToolBar.xib in Resources */,
 				0502785A1DA9382500117654 /* ZCMoveViewController.xib in Resources */,
 				0522E0B41DA3621900CB390C /* ZCPhotoCell.xib in Resources */,
+				058F87E81DBFAB7200284264 /* ZCNoteViewController.xib in Resources */,
 				372896131D69AB0D00F103DF /* Assets.xcassets in Resources */,
 				050E6CE11DBD047B00E803A4 /* ZCGCDTimerViewController.xib in Resources */,
 				050D8C481DAD437000C8225C /* ZCNavViewController.xib in Resources */,
@@ -1065,6 +1074,7 @@
 				054B47891DAA2F6A000C10A2 /* ZCPopBtn.m in Sources */,
 				37D44B3B1D7BE91700FD3BCA /* NSDate+ZCExtension.m in Sources */,
 				37C122E51D6CA12300A98A17 /* ZCRecommendCategory.m in Sources */,
+				058F87E71DBFAB7200284264 /* ZCNoteViewController.m in Sources */,
 				372896661D69FC5200F103DF /* ZCNavigationController.m in Sources */,
 				372C66591D942B9C00E585D8 /* ZCPlaceholderTextView.m in Sources */,
 				050278591DA9382500117654 /* ZCMoveViewController.m in Sources */,
