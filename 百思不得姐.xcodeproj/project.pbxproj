@@ -49,6 +49,7 @@
 		0589CA131DA2A8330049A1DA /* ZCLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0589CA121DA2A8330049A1DA /* ZCLineLayout.m */; };
 		058F87E71DBFAB7200284264 /* ZCNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 058F87E51DBFAB7200284264 /* ZCNoteViewController.m */; };
 		058F87E81DBFAB7200284264 /* ZCNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 058F87E61DBFAB7200284264 /* ZCNoteViewController.xib */; };
+		05943ED51DC256AB00E3304E /* ZCTopWindowsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05943ED41DC256AB00E3304E /* ZCTopWindowsViewController.m */; };
 		05992E6D1DB3CAEE0018A475 /* ZCNavLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05992E6C1DB3CAEE0018A475 /* ZCNavLabel.m */; };
 		05992E711DB3D1F70018A475 /* ZCScrollerVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05992E6F1DB3D1F70018A475 /* ZCScrollerVCViewController.m */; };
 		05992E721DB3D1F70018A475 /* ZCScrollerVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05992E701DB3D1F70018A475 /* ZCScrollerVCViewController.xib */; };
@@ -209,6 +210,8 @@
 		058F87E41DBFAB7200284264 /* ZCNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNoteViewController.h; sourceTree = "<group>"; };
 		058F87E51DBFAB7200284264 /* ZCNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNoteViewController.m; sourceTree = "<group>"; };
 		058F87E61DBFAB7200284264 /* ZCNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCNoteViewController.xib; sourceTree = "<group>"; };
+		05943ED31DC256AB00E3304E /* ZCTopWindowsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTopWindowsViewController.h; sourceTree = "<group>"; };
+		05943ED41DC256AB00E3304E /* ZCTopWindowsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTopWindowsViewController.m; sourceTree = "<group>"; };
 		05992E6B1DB3CAEE0018A475 /* ZCNavLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNavLabel.h; sourceTree = "<group>"; };
 		05992E6C1DB3CAEE0018A475 /* ZCNavLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNavLabel.m; sourceTree = "<group>"; };
 		05992E6E1DB3D1F70018A475 /* ZCScrollerVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCScrollerVCViewController.h; sourceTree = "<group>"; };
@@ -712,6 +715,8 @@
 				058F87E41DBFAB7200284264 /* ZCNoteViewController.h */,
 				058F87E51DBFAB7200284264 /* ZCNoteViewController.m */,
 				058F87E61DBFAB7200284264 /* ZCNoteViewController.xib */,
+				05943ED31DC256AB00E3304E /* ZCTopWindowsViewController.h */,
+				05943ED41DC256AB00E3304E /* ZCTopWindowsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1061,6 +1066,7 @@
 				3728965B1D69FC0000F103DF /* ZCFriendTrendsViewController.m in Sources */,
 				37C122EC1D6CA36C00A98A17 /* ZCRecommendCategoryCell.m in Sources */,
 				37C122F01D6CA88C00A98A17 /* ZCRecommendList.m in Sources */,
+				05943ED51DC256AB00E3304E /* ZCTopWindowsViewController.m in Sources */,
 				37DFC8541D858EC70035F377 /* ZCCommentViewController.m in Sources */,
 				3728964C1D69FBF900F103DF /* ZCMeViewController.m in Sources */,
 				370A41081D8EF531008B9EE6 /* ZCMeFooterView.m in Sources */,
